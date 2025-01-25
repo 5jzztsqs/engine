@@ -1,6 +1,6 @@
 const fs = require("fs");
 const enter = {
-    engine: "http://192.168.0.100/app-release.apk",
+    engine: "https://bgithub.xyz/5jzztsqs/engine/raw/refs/heads/main/engine.apk",
     name: "影视通",
     titles: [
         {
@@ -18,6 +18,10 @@ const enter = {
         {
             name: "动漫",
             type: "anime"
+        },
+        {
+            name: "短剧",
+            type: "short"
         }
     ]
 }
